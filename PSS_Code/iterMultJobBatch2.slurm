@@ -1,0 +1,22 @@
+#!/bin/bash
+#SBATCH --cpus-per-task=10
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --time=00:01:00
+#SBATCH --partition=windfall
+#SBATCH	--mail-type=END
+#SBATCH	--mail-user=benyurek@arizona.edu
+
+
+echo "Executing separgparse 2 with this argument : "
+echo $1
+
+arg_int=$1
+incremented_arg=$((arg_int + 1))
+
+if [ "$arg_int" -le 767 ]; then
+    sbatch newsepargparse2.slurm $arg_int
+    sbatch iterMultJobBatch2.slurm $incremented_arg
+else
+    echo "limit reached...no more jobs to call"
+fi
