@@ -5,8 +5,8 @@
 #SBATCH --time=24:00:00
 #SBATCH --partition=windfall
 #SBATCH	--mail-type=END
-#SBATCH	--mail-user=benyurek@arizona.edu
-#SBATCH --array=1-51
+#SBATCH	--mail-user= !!!!!
+#SBATCH --array= !!!!!
 
 module load python/3.9/3.9.10
 source /home/u23/benyurek/env39/bin/activate
@@ -32,5 +32,4 @@ do
     echo "Before obj_dec"
     time srun python3 object_detection.py --pair-list $CurrentCoordinates
     date
-    
 done
