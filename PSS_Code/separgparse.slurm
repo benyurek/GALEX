@@ -32,4 +32,5 @@ do
     echo "Before obj_dec"
     time srun python3 object_detection.py --pair-list $CurrentCoordinates
     date
+    echo "After everything"
 done
