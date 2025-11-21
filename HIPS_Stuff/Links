@@ -1,1 +1,44 @@
-TODO: Insert Links to Aladin website and docs
+Here is a list of relevant links that will help you get started. Reading these pages will allow you to familiarize yourself with the Aladin software and understand how to generate the HIPS that we need. 
+
+
+----- 1 ----- 
+
+This page provides links to HiPS documentations and tools notably to generate progressive surveys from your own datasets. This is a very good starting point that will explain HIPS to you as well as link you to other information.
+
+          https://aladin.cds.unistra.fr/hips/
+
+
+
+
+---- 2 -----
+
+This page is their general HIPS generation walkthrough. 
+
+          https://aladin.cds.unistra.fr/hips/HipsIn10Steps.gml
+
+
+
+
+----- 3 -----
+
+This will take you to a PDF of the HIPSgen manual so that you can familiarize yourself with the software.
+
+          https://aladin.cds.unistra.fr/hips/HipsgenManual.pdf
+
+
+
+
+----- 4 -----
+
+This is the HIPSgen reference manual page. 
+
+          https://aladin.cds.unistra.fr/hips/HipsgenReferenceManual.html
+
+
+
+
+Since I had to leave the project before I was able to dive completely into the HIPS generation, I'm not sure if there is much more information that you can find on the main Aladin site to help you out. This is just some stuff that I found that I think might be helpful. My hope is that you will be able to succeed without having to search for much more on your own. 
+
+
+
+
