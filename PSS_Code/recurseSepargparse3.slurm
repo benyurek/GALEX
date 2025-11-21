@@ -14,7 +14,7 @@ echo $1
 arg_int=$1
 incremented_arg=$((arg_int + 1))
 
-if [ "$arg_int" -le 767 ]; then
+if [ "$arg_int" -le !!!!! ]; then
     sbatch separgparse3.slurm $arg_int
     sbatch recurseSepargparse3.slurm $incremented_arg
 else
